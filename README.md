@@ -1,2 +1,28 @@
-# multilingual-token-visualizer
-Built a pipeline that tokenizes prompts using XLM-R, collapses subword tokens into full words, averages their embeddings, and projects them into 2D using PCA/t-SNE for visual analysis. 🔍
+### ✅ `multilingual-token-visualizer/README.md`
+
+# 🧭 Multilingual Token Embedding Visualizer
+
+Visualizes how words are represented across languages using embeddings from XLM-R. Subword tokens are collapsed and averaged into full word embeddings.
+
+## 🔎 Features
+- Tokenizer abstraction for XLM-R (SentencePiece)
+- Subword collapsing into full words
+- Embedding extraction and averaging
+- 2D visualization using PCA or t-SNE
+
+## 🌍 Supports
+- Urdu
+- Arabic
+- Chinese
+- Spanish
+
+## 📊 Output
+- 2D scatter plots with labeled word positions
+
+## 💡 Technologies Used
+- XLM-Roberta (Transformers)
+- t-SNE / PCA
+- Matplotlib
+
+## ✍️ Author
+Imaad Fazal – Knowledge Discovery & Data Science Lab, FAST-NUCES
